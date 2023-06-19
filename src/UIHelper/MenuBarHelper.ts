@@ -1,4 +1,4 @@
-import { IExcelColumnFormatOptions, ExcelExporter } from './../Export/ExcelHelper';
+import { IExcelColumnFormatOptions, ExcelExporter } from './../Export/sample';
 import { MenuBar, IMenuItemSpec } from 'VSS/Controls/Menus';
 import { showModalDialog, createModalDialogUI, addDatePicker } from './ModalDialogHelper';
 import { parseDate } from '../Data/Date';
@@ -77,7 +77,7 @@ function _createMenuBarOptions<T, U, V>(options: IMenuBarConfiguration<T, U, V>)
                 case 'Export':
                     let exportInfo = options.export.exportFn(options.self);
                     let exporter = new ExcelExporter('TimeExport.xlsx');
-                    exporter.addSheet('Times', exportInfo[0], exportInfo[1]);
+                    exporter.addSheet('Times', exportInfo[0], exportInfo[1],100);
                     exporter.writeFile();
                     break;
             }

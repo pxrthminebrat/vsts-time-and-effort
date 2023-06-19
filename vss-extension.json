@@ -3,7 +3,7 @@
     "id": "cc-time-and-effort",
     "version": "0.1.376",
     "galleryProperties": [{ "markdownItParser": "true" }],
-    "publisher": "capecode",
+    "publisher": "MinebratPvtLtd",
     "name": "Time & Effort",
     "description": "Plan & track time and costs on work items easily.",
     "icons": {
@@ -19,7 +19,7 @@
         "effort"
     ],
     "categories": [
-        "Plan and track"
+        "Developer samples"
     ],
     "content": {
         "details": {
