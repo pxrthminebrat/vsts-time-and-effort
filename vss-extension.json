@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
-    "id": "cc-time-and-effort",
+    "id": "da-time-and-effort",
     "version": "0.1.376",
     "galleryProperties": [{ "markdownItParser": "true" }],
-    "publisher": "MinebratPvtLtd",
+    "publisher": "dumparun",
     "name": "Time & Effort",
     "description": "Plan & track time and costs on work items easily.",
     "icons": {
